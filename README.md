@@ -1,3 +1,9 @@
+https://stackoverflow.com/questions/48281193/how-to-render-nested-json-inside-jsx-in-react-native?rq=1
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
