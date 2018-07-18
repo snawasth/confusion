@@ -13,16 +13,16 @@ class DishDetail extends Component {
 
         var dishdet = this.props.selectedDish;
         
-     return(
-    <Card>
-    <CardImg width="100%" src={dishdet.image} alt={dishdet.name} />
-    <CardBody>
-    <CardTitle>{dishdet.name}</CardTitle>
-    <CardText>{dishdet.description}</CardText>
-        </CardBody>
-        </Card>
+        return(
+            <Card>
+                <CardImg width="100%" src={dishdet.image} alt={dishdet.name} />
+                <CardBody>
+                    <CardTitle>{dishdet.name}</CardTitle>
+                    <CardText>{dishdet.description}</CardText>
+                </CardBody>
+            </Card>
 
-     )};
+        )};
     
 }
 

@@ -25,10 +25,9 @@ class Menu extends Component {
     renderDish(dish){
         if (dish != null){
             return(
-                <div>
-                <DishDetail selectedDish={this.state.selectedDish}/>
-               
-                    </div>
+                <div className="col-12 col-md-5 m-1">
+                    <DishDetail selectedDish={this.state.selectedDish}/>
+               </div>
             );
         }
         else{
@@ -37,6 +36,12 @@ class Menu extends Component {
             );
         }
     }
+
+
+
+
+
+    
 
     render() {
 
