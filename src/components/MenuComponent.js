@@ -37,11 +37,23 @@ class Menu extends Component {
         }
     }
 
+    renderComments(dish){
+        if (dish != null){
+            return(
+                <div className="col-12 col-md-5 m-1">
+                <h4>Comments</h4>
+                    <DishDetail selectedDish={this.state.selectedDish.comments[1]}/>
+               </div>
+            );
+        }
+        else{
+            return(
+                <div></div>
+            );
+        }
+    }
 
 
-
-
-    
 
     render() {
 
@@ -71,7 +83,8 @@ class Menu extends Component {
                         </div>
                         <div className="row">
                             {this.renderDish(this.state.selectedDish)}
-                            </div>
+                            {this.renderComments(this.state.selectedDish)}
+                             </div>
                         </div>
 
         );
