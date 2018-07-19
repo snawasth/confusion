@@ -4,6 +4,8 @@ https://stackoverflow.com/questions/48281193/how-to-render-nested-json-inside-js
 
 https://stackoverflow.com/questions/44084686/displaying-nested-json-with-react-js
 
+https://hackernoon.com/how-to-combine-a-nodejs-back-end-with-a-reactjs-front-end-app-ea9b24715032
+
 
 
 
