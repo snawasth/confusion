@@ -37,25 +37,34 @@ class Menu extends Component {
         }
     }
 
-    renderComments(dish){
-        if (dish != null){
-            return(
-                <div className="col-12 col-md-5 m-1">
-                <h4>Comments</h4>
-                    <DishDetail selectedDish={this.state.selectedDish.comments[1]}/>
-               </div>
-            );
-        }
-        else{
-            return(
-                <div></div>
-            );
-        }
+    
+    renderComments(){
+
+        const comm = this.props.dishes.id.comments.map((comments) => {
+        
+            if (comm != null){
+                return(
+                    <div className="col-12 col-md-5 m-1">
+                    <h4>Comments</h4>
+                    <ul key={comments.id} className="list-unstyled">
+                        <li>{comments.comment}</li>
+                        </ul>
+                </div>
+                );
+            }
+            else{
+                return(
+                    <div></div>
+                );
+            }
+        });
     }
 
 
 
     render() {
+
+       
 
         const menu = this.props.dishes.map((dish) => {
             return(
@@ -80,12 +89,12 @@ class Menu extends Component {
                 <div className="container">
                     <div className="row">
                         {menu}
-                        </div>
+                    </div>
                         <div className="row">
                             {this.renderDish(this.state.selectedDish)}
-                            {this.renderComments(this.state.selectedDish)}
-                             </div>
+                            {comm}
                         </div>
+                </div>
 
         );
 
