@@ -38,9 +38,9 @@ class Menu extends Component {
     }
 
     
-    renderComments(){
+    renderComments(comm){
 
-        const comm = this.props.dishes.id.comments.map((comments) => {
+        const dishd = this.state.dishes.id.comments.map((comments) => {
         
             if (comm != null){
                 return(
@@ -92,7 +92,8 @@ class Menu extends Component {
                     </div>
                         <div className="row">
                             {this.renderDish(this.state.selectedDish)}
-                            {comm}
+                            {this.renderComments(this.state.dishd)}
+                      
                         </div>
                 </div>
 
