@@ -8,6 +8,14 @@
 
 - https://github.com/bhavankris/ReactDemoProject/blob/master/src/pages/contact-list-page.js
 
+- https://medium.com/@bryantheastronaut/ok-here-we-go-b9f683c5a00c
+
+- https://www.djamware.com/post/59faec0a80aca7739224ee1f/building-crud-web-application-using-mern-stack
+
+- https://blog.cloudboost.io/creating-your-first-mern-stack-application-b6604d12e4d3
+
+- https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4
+
 
 
 
