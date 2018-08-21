@@ -18,9 +18,13 @@
 
 - https://medium.com/technoetics/create-basic-login-forms-using-create-react-app-module-in-reactjs-511b9790dede
 
+## ES6 Links
 
+- http://es6-features.org/#Constants
 
+- http://ccoenraets.github.io/es6-tutorial/
 
+- https://codeburst.io/es6-tutorial-for-beginners-5f3c4e7960be
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
